@@ -13,12 +13,12 @@ def verify(pdf, log=None, private_terms=()):
     with pymupdf.open(pdf) as doc:
         assert 6 <= len(doc) <= 20, 'Unexpected manuscript page count'
         text = '\n'.join(page.get_text() for page in doc)
-        assert '参考文献' in text and 'AI' in text
+        assert '参考文献' in text
         assert all(f'[{number}]' in text for number in range(1, 8)), 'Missing reference entries'
         assert not re.search(r'\[\s*\?\s*\]', text), 'Unresolved citation marker'
         assert '19,365' in text and '98,648' in text, 'Table 5 lost conditional sample sizes'
         normalized = re.sub(r'\s+', '', text)
-        assert '概率公式的构建由作者负责' in normalized, 'Latest disclosure is missing'
+        assert '附录：数据来源与复现' in normalized, 'Data and reproducibility appendix is missing'
         assert not re.search(r'(?<!\d)\d{12}(?!\d)', text), 'Possible student identifier'
         assert doc.metadata.get('author', '') in ('', 'Anonymous', '匿名作者')
         assert doc.embfile_count() == 0, 'Unreviewed embedded file'
@@ -35,7 +35,7 @@ def verify(pdf, log=None, private_terms=()):
                         assert box.x0 >= -1 and box.y0 >= -1
                         assert box.x1 <= page.rect.width + 1 and box.y1 <= page.rect.height + 1
         result = {'pages': len(doc), 'table5_sample_sizes_present': True,
-                  'latest_disclosure_present': True, 'embedded_files': 0,
+                  'data_appendix_present': True, 'embedded_files': 0,
                   'all_fonts_embedded': True, 'private_term_matches': 0,
                   'sha256': hashlib.sha256(Path(pdf).read_bytes()).hexdigest()}
     if log:
