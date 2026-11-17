@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-11-17T13:47:49.144585+00:00",
+  "elapsed_seconds": 24.08327940001618,
+  "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:21:58) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "rng": "NumPy PCG64; per-row Generator.permuted on labeled indices",
+  "configurations": 107,
+  "main_trials": 21400000,
+  "refinement_trials": 1000000,
+  "convergence_trials": 7860000,
+  "source_sha256": {
+    "src/model.py": "121fc258181a9834d59b501cfa4f569ca8bd6adc475f3c9d4491f51d8d0261e9",
+    "src/simulation.py": "6db8438cfbd61c7581bf25bfb2fefc56980a7f698a41b56819485a5c868df078",
+    "src/__init__.py": "918f61893e9b1cd211050a94ad0e2b27f29a9076f91de5c43d694c03a8693bf2",
+    "experiments/configurations.py": "3cf67450f0cfdc233f7272253e71e4b2c9ef2a674794f5030208ea50bac39bbc",
+    "experiments/io_utils.py": "7866de1c28e376378e36cef8a0756f28efe848edfdebec53c289a62e19bd50f9",
+    "experiments/make_figures.py": "32d7c59d1819c3c067b4b12100201e408b188b39c488b0aff0395740aff962ea",
+    "experiments/run_all.py": "0852689bdaf8d258ab8be7e33775336ce46b2359295955251521f7e111b0991a",
+    "experiments/write_report.py": "1f3c4a8c712c3dec757b7fa9c2db5a25a77ee4a4fb1f4442bfdb0967172bdeab",
+    "experiments/__init__.py": "f67a437b3910b0400486a45167d0001163081e3b8b3f1d6166df4e3a3adf3581",
+    "experiments/config.json": "3c49a3c9ea80d5724bc8d58a773d722f3592b523f430460a5b4c5c024ce0b569"
+  },
+  "matplotlib": "3.11.2",
+  "elapsed_seconds_total": 50.17646310001146
+}

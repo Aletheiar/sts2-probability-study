@@ -1,0 +1,54 @@
+{
+  "figures": {
+    "figures/01_accessibility.pdf": {
+      "source": "figures/01_accessibility.pdf",
+      "sha256": "dddfaae5e9656f66eceebb6f1e603ab56094b5d0f5c95fa491faa08fc82eadf5"
+    },
+    "figures/03_order_constraint.pdf": {
+      "source": "figures/03_order_constraint.pdf",
+      "sha256": "011509b40347d2c5d4da96abcf4a3b225adfb746cfa618b33f0f1a99e5c18269"
+    },
+    "figures/04_payoff_distributions.pdf": {
+      "source": "figures/04_payoff_distributions.pdf",
+      "sha256": "823cc0b784e9f8542248ff042cd9f0093829aa1bb79bad3880d79c069f970016"
+    },
+    "figures/05_mean_and_sd.pdf": {
+      "source": "figures/05_mean_and_sd.pdf",
+      "sha256": "b6a1e3988d6234b294e1a07c559d3876f6d4e48a2d042e5605bf0f2519f4dae3"
+    },
+    "figures/06_variance_decomposition.pdf": {
+      "source": "figures/06_variance_decomposition.pdf",
+      "sha256": "f8b426525ca94f55fc0bc7187db3f7e98ef2076fe8a9d61ad0163b5c3c637815"
+    },
+    "figures/09_convergence.pdf": {
+      "source": "figures/09_convergence.pdf",
+      "sha256": "e54fb505e7a384be4f9e6e7e33154e26bb26e722042478b98efdb66b37576ee3"
+    },
+    "figures/10_construction_tradeoffs.pdf": {
+      "source": "figures/10_construction_tradeoffs.pdf",
+      "sha256": "1143259fd1abc985dd751178f9443d87b61beb2f3fe901eb5ff43ef3b46c012f"
+    }
+  },
+  "tagged_moments": {
+    "E_Z": "8/35",
+    "alpha": "33/175",
+    "beta": "93/3325",
+    "gamma": "6/175"
+  },
+  "data_sha256": {
+    "summary.csv": "517c5769faf160780a5c6c58a5bb195a741c018524aa9edcf5a640942cd13493",
+    "completion_summary.json": "fb6f9c6b175589a753f3b9fe8bd5a5824658d31a8dcee8376df2076247045f59",
+    "baseline_refinement.json": "10279179b9172367c7fdbebdcc91c430f5da9012e70c4bd6333ea5065b1f5b2f",
+    "convergence.csv": "3b2e21695af48493b62118ffc60f3c7577aa956499e566091a6ec4f53dd40c7c"
+  },
+  "print_adaptation": "Same saved data and original plotting functions; enlarged labels for A4 print.",
+  "print_figure_sha256": {
+    "01_accessibility": "774541308a97560ba7a175eb26820aa59e5cecf3d5a01c9b695a3a378ec8ce65",
+    "03_order_constraint": "a797fc35369552763777d9554136a8ffd63bd8bbe70a5115d80157d5b621e59e",
+    "04_payoff_distributions": "9f15eb8592785f868800e4d1f32e0ba3cff5c3b6eb8c608217608ffa9da88fc9",
+    "05_mean_and_sd": "49e3552d7d4a5ee13ba64ac9b6f45bbc9373ca71623d67a19a21e079b6cd5e8c",
+    "06_variance_decomposition": "2332f561adca83c0d212907e0537869559defa524c0a52113904d34535b8ca87",
+    "09_convergence": "3b5eac4b706564ee17811fabb2473707db4f1f70d88e4263bb5f9c8d339275a1",
+    "10_construction_tradeoffs": "8c2f67a7e484e8722d69fd707e4c5ee070b213f44825bc61130356b83f50ceef"
+  }
+}

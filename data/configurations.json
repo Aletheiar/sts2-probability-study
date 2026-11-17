@@ -1,0 +1,3143 @@
+[
+  {
+    "id": "baseline",
+    "family": "baseline",
+    "operation": "基准构筑",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "baseline",
+      "s_ratio_10",
+      "N_24",
+      "n_10",
+      "grid_c2_s10"
+    ],
+    "families": [
+      "baseline",
+      "S_T_replacement",
+      "N_T_change",
+      "setup_size",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "s_ratio_00",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=0，T=19，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 19,
+      "s": 0
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 10,
+      "s": -10
+    },
+    "aliases": [
+      "s_ratio_00"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_ratio_01",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=1，T=18，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 18,
+      "s": 1
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 9,
+      "s": -9
+    },
+    "aliases": [
+      "s_ratio_01"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_ratio_02",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=2，T=17，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 17,
+      "s": 2
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 8,
+      "s": -8
+    },
+    "aliases": [
+      "s_ratio_02",
+      "grid_c2_s2"
+    ],
+    "families": [
+      "S_T_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "s_ratio_03",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=3，T=16，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 16,
+      "s": 3
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 7,
+      "s": -7
+    },
+    "aliases": [
+      "s_ratio_03"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_ratio_04",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=4，T=15，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 15,
+      "s": 4
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 6,
+      "s": -6
+    },
+    "aliases": [
+      "s_ratio_04",
+      "grid_c2_s4"
+    ],
+    "families": [
+      "S_T_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "s_ratio_05",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=5，T=14，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 14,
+      "s": 5
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 5,
+      "s": -5
+    },
+    "aliases": [
+      "s_ratio_05"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_ratio_06",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=6，T=13，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 13,
+      "s": 6
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 4,
+      "s": -4
+    },
+    "aliases": [
+      "s_ratio_06",
+      "grid_c2_s6"
+    ],
+    "families": [
+      "S_T_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "s_ratio_07",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=7，T=12，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 12,
+      "s": 7
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 3,
+      "s": -3
+    },
+    "aliases": [
+      "s_ratio_07"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_ratio_08",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=8，T=11，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 11,
+      "s": 8
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 2,
+      "s": -2
+    },
+    "aliases": [
+      "s_ratio_08",
+      "grid_c2_s8"
+    ],
+    "families": [
+      "S_T_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "s_ratio_09",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=9，T=10，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 10,
+      "s": 9
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 1,
+      "s": -1
+    },
+    "aliases": [
+      "s_ratio_09"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_ratio_11",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=11，T=8，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 8,
+      "s": 11
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -1,
+      "s": 1
+    },
+    "aliases": [
+      "s_ratio_11"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_ratio_12",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=12，T=7，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 7,
+      "s": 12
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -2,
+      "s": 2
+    },
+    "aliases": [
+      "s_ratio_12",
+      "grid_c2_s12"
+    ],
+    "families": [
+      "S_T_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "s_ratio_13",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=13，T=6，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 6,
+      "s": 13
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -3,
+      "s": 3
+    },
+    "aliases": [
+      "s_ratio_13"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_ratio_14",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=14，T=5，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 5,
+      "s": 14
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -4,
+      "s": 4
+    },
+    "aliases": [
+      "s_ratio_14",
+      "grid_c2_s14"
+    ],
+    "families": [
+      "S_T_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "s_ratio_15",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=15，T=4，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 4,
+      "s": 15
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -5,
+      "s": 5
+    },
+    "aliases": [
+      "s_ratio_15"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_ratio_16",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=16，T=3，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 3,
+      "s": 16
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -6,
+      "s": 6
+    },
+    "aliases": [
+      "s_ratio_16",
+      "grid_c2_s16"
+    ],
+    "families": [
+      "S_T_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "s_ratio_17",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=17，T=2，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 2,
+      "s": 17
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -7,
+      "s": 7
+    },
+    "aliases": [
+      "s_ratio_17"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_ratio_18",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=18，T=1，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 1,
+      "s": 18
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -8,
+      "s": 8
+    },
+    "aliases": [
+      "s_ratio_18"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_ratio_19",
+    "family": "S_T_replacement",
+    "operation": "固定N=24：S=19，T=0，S/T相互替换",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 0,
+      "s": 19
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -9,
+      "s": 9
+    },
+    "aliases": [
+      "s_ratio_19"
+    ],
+    "families": [
+      "S_T_replacement"
+    ]
+  },
+  {
+    "id": "s_change_-6",
+    "family": "s_addition_deletion",
+    "operation": "删除6张S；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 4
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": -6
+    },
+    "aliases": [
+      "s_change_-6"
+    ],
+    "families": [
+      "s_addition_deletion"
+    ]
+  },
+  {
+    "id": "s_change_-3",
+    "family": "s_addition_deletion",
+    "operation": "删除3张S；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 7
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": -3
+    },
+    "aliases": [
+      "s_change_-3"
+    ],
+    "families": [
+      "s_addition_deletion"
+    ]
+  },
+  {
+    "id": "s_change_+3",
+    "family": "s_addition_deletion",
+    "operation": "增加3张S；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 13
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 3
+    },
+    "aliases": [
+      "s_change_+3"
+    ],
+    "families": [
+      "s_addition_deletion"
+    ]
+  },
+  {
+    "id": "s_change_+6",
+    "family": "s_addition_deletion",
+    "operation": "增加6张S；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 16
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 6
+    },
+    "aliases": [
+      "s_change_+6"
+    ],
+    "families": [
+      "s_addition_deletion"
+    ]
+  },
+  {
+    "id": "s_change_+10",
+    "family": "s_addition_deletion",
+    "operation": "增加10张S；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 20
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 10
+    },
+    "aliases": [
+      "s_change_+10"
+    ],
+    "families": [
+      "s_addition_deletion"
+    ]
+  },
+  {
+    "id": "t_change_-6",
+    "family": "t_addition_deletion",
+    "operation": "删除6张T；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 3,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -6,
+      "s": 0
+    },
+    "aliases": [
+      "t_change_-6",
+      "N_18"
+    ],
+    "families": [
+      "t_addition_deletion",
+      "N_T_change"
+    ]
+  },
+  {
+    "id": "t_change_-3",
+    "family": "t_addition_deletion",
+    "operation": "删除3张T；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 6,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -3,
+      "s": 0
+    },
+    "aliases": [
+      "t_change_-3"
+    ],
+    "families": [
+      "t_addition_deletion"
+    ]
+  },
+  {
+    "id": "t_change_+3",
+    "family": "t_addition_deletion",
+    "operation": "增加3张T；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 12,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 3,
+      "s": 0
+    },
+    "aliases": [
+      "t_change_+3"
+    ],
+    "families": [
+      "t_addition_deletion"
+    ]
+  },
+  {
+    "id": "t_change_+6",
+    "family": "t_addition_deletion",
+    "operation": "增加6张T；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 15,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 6,
+      "s": 0
+    },
+    "aliases": [
+      "t_change_+6",
+      "N_30"
+    ],
+    "families": [
+      "t_addition_deletion",
+      "N_T_change"
+    ]
+  },
+  {
+    "id": "t_change_+10",
+    "family": "t_addition_deletion",
+    "operation": "增加10张T；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 19,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 10,
+      "s": 0
+    },
+    "aliases": [
+      "t_change_+10",
+      "N_34"
+    ],
+    "families": [
+      "t_addition_deletion",
+      "N_T_change"
+    ]
+  },
+  {
+    "id": "N_20",
+    "family": "N_T_change",
+    "operation": "仅改变T，使N=20；核心和S=10固定",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 5,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -4,
+      "s": 0
+    },
+    "aliases": [
+      "N_20"
+    ],
+    "families": [
+      "N_T_change"
+    ]
+  },
+  {
+    "id": "N_22",
+    "family": "N_T_change",
+    "operation": "仅改变T，使N=22；核心和S=10固定",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 7,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -2,
+      "s": 0
+    },
+    "aliases": [
+      "N_22"
+    ],
+    "families": [
+      "N_T_change"
+    ]
+  },
+  {
+    "id": "N_26",
+    "family": "N_T_change",
+    "operation": "仅改变T，使N=26；核心和S=10固定",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 11,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 2,
+      "s": 0
+    },
+    "aliases": [
+      "N_26"
+    ],
+    "families": [
+      "N_T_change"
+    ]
+  },
+  {
+    "id": "N_28",
+    "family": "N_T_change",
+    "operation": "仅改变T，使N=28；核心和S=10固定",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 13,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 4,
+      "s": 0
+    },
+    "aliases": [
+      "N_28"
+    ],
+    "families": [
+      "N_T_change"
+    ]
+  },
+  {
+    "id": "N_32",
+    "family": "N_T_change",
+    "operation": "仅改变T，使N=32；核心和S=10固定",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 17,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 8,
+      "s": 0
+    },
+    "aliases": [
+      "N_32"
+    ],
+    "families": [
+      "N_T_change"
+    ]
+  },
+  {
+    "id": "N_36",
+    "family": "N_T_change",
+    "operation": "仅改变T，使N=36；核心和S=10固定",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 21,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 12,
+      "s": 0
+    },
+    "aliases": [
+      "N_36"
+    ],
+    "families": [
+      "N_T_change"
+    ]
+  },
+  {
+    "id": "a_from_t_0",
+    "family": "a_t_replacement",
+    "operation": "固定N：A改为0，以T反向替换-1张",
+    "deck": {
+      "a": 0,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 10,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": -1,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 1,
+      "s": 0
+    },
+    "aliases": [
+      "a_from_t_0"
+    ],
+    "families": [
+      "a_t_replacement"
+    ]
+  },
+  {
+    "id": "a_from_s_0",
+    "family": "a_s_replacement",
+    "operation": "固定N：A改为0，以S反向替换-1张",
+    "deck": {
+      "a": 0,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 11
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": -1,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 1
+    },
+    "aliases": [
+      "a_from_s_0"
+    ],
+    "families": [
+      "a_s_replacement"
+    ]
+  },
+  {
+    "id": "a_from_t_2",
+    "family": "a_t_replacement",
+    "operation": "固定N：A改为2，以T反向替换+1张",
+    "deck": {
+      "a": 2,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 8,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 1,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -1,
+      "s": 0
+    },
+    "aliases": [
+      "a_from_t_2"
+    ],
+    "families": [
+      "a_t_replacement"
+    ]
+  },
+  {
+    "id": "a_from_s_2",
+    "family": "a_s_replacement",
+    "operation": "固定N：A改为2，以S反向替换+1张",
+    "deck": {
+      "a": 2,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 9
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 1,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": -1
+    },
+    "aliases": [
+      "a_from_s_2"
+    ],
+    "families": [
+      "a_s_replacement"
+    ]
+  },
+  {
+    "id": "a_from_t_3",
+    "family": "a_t_replacement",
+    "operation": "固定N：A改为3，以T反向替换+2张",
+    "deck": {
+      "a": 3,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 7,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 2,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": -2,
+      "s": 0
+    },
+    "aliases": [
+      "a_from_t_3"
+    ],
+    "families": [
+      "a_t_replacement"
+    ]
+  },
+  {
+    "id": "a_from_s_3",
+    "family": "a_s_replacement",
+    "operation": "固定N：A改为3，以S反向替换+2张",
+    "deck": {
+      "a": 3,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 8
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 2,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": -2
+    },
+    "aliases": [
+      "a_from_s_3"
+    ],
+    "families": [
+      "a_s_replacement"
+    ]
+  },
+  {
+    "id": "a_change_2",
+    "family": "a_addition_deletion",
+    "operation": "增加1张A；其余数量不变",
+    "deck": {
+      "a": 2,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 1,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "a_change_2"
+    ],
+    "families": [
+      "a_addition_deletion"
+    ]
+  },
+  {
+    "id": "a_change_3",
+    "family": "a_addition_deletion",
+    "operation": "增加2张A；其余数量不变",
+    "deck": {
+      "a": 3,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 2,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "a_change_3"
+    ],
+    "families": [
+      "a_addition_deletion"
+    ]
+  },
+  {
+    "id": "b_from_t_0",
+    "family": "b_t_replacement",
+    "operation": "固定N：B改为0，以T反向替换-1张",
+    "deck": {
+      "a": 1,
+      "b": 0,
+      "c": 2,
+      "d": 1,
+      "t": 10,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": -1,
+      "c": 0,
+      "d": 0,
+      "t": 1,
+      "s": 0
+    },
+    "aliases": [
+      "b_from_t_0"
+    ],
+    "families": [
+      "b_t_replacement"
+    ]
+  },
+  {
+    "id": "b_from_s_0",
+    "family": "b_s_replacement",
+    "operation": "固定N：B改为0，以S反向替换-1张",
+    "deck": {
+      "a": 1,
+      "b": 0,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 11
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": -1,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 1
+    },
+    "aliases": [
+      "b_from_s_0"
+    ],
+    "families": [
+      "b_s_replacement"
+    ]
+  },
+  {
+    "id": "b_from_t_2",
+    "family": "b_t_replacement",
+    "operation": "固定N：B改为2，以T反向替换+1张",
+    "deck": {
+      "a": 1,
+      "b": 2,
+      "c": 2,
+      "d": 1,
+      "t": 8,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 1,
+      "c": 0,
+      "d": 0,
+      "t": -1,
+      "s": 0
+    },
+    "aliases": [
+      "b_from_t_2"
+    ],
+    "families": [
+      "b_t_replacement"
+    ]
+  },
+  {
+    "id": "b_from_s_2",
+    "family": "b_s_replacement",
+    "operation": "固定N：B改为2，以S反向替换+1张",
+    "deck": {
+      "a": 1,
+      "b": 2,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 9
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 1,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": -1
+    },
+    "aliases": [
+      "b_from_s_2"
+    ],
+    "families": [
+      "b_s_replacement"
+    ]
+  },
+  {
+    "id": "b_from_t_3",
+    "family": "b_t_replacement",
+    "operation": "固定N：B改为3，以T反向替换+2张",
+    "deck": {
+      "a": 1,
+      "b": 3,
+      "c": 2,
+      "d": 1,
+      "t": 7,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 2,
+      "c": 0,
+      "d": 0,
+      "t": -2,
+      "s": 0
+    },
+    "aliases": [
+      "b_from_t_3"
+    ],
+    "families": [
+      "b_t_replacement"
+    ]
+  },
+  {
+    "id": "b_from_s_3",
+    "family": "b_s_replacement",
+    "operation": "固定N：B改为3，以S反向替换+2张",
+    "deck": {
+      "a": 1,
+      "b": 3,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 8
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 2,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": -2
+    },
+    "aliases": [
+      "b_from_s_3"
+    ],
+    "families": [
+      "b_s_replacement"
+    ]
+  },
+  {
+    "id": "b_change_2",
+    "family": "b_addition_deletion",
+    "operation": "增加1张B；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 2,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 1,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "b_change_2"
+    ],
+    "families": [
+      "b_addition_deletion"
+    ]
+  },
+  {
+    "id": "b_change_3",
+    "family": "b_addition_deletion",
+    "operation": "增加2张B；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 3,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 2,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "b_change_3"
+    ],
+    "families": [
+      "b_addition_deletion"
+    ]
+  },
+  {
+    "id": "c_from_t_0",
+    "family": "c_t_replacement",
+    "operation": "固定N：C改为0，以T反向替换-2张",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 0,
+      "d": 1,
+      "t": 11,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -2,
+      "d": 0,
+      "t": 2,
+      "s": 0
+    },
+    "aliases": [
+      "c_from_t_0"
+    ],
+    "families": [
+      "c_t_replacement"
+    ]
+  },
+  {
+    "id": "c_from_s_0",
+    "family": "c_s_replacement",
+    "operation": "固定N：C改为0，以S反向替换-2张",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 0,
+      "d": 1,
+      "t": 9,
+      "s": 12
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -2,
+      "d": 0,
+      "t": 0,
+      "s": 2
+    },
+    "aliases": [
+      "c_from_s_0"
+    ],
+    "families": [
+      "c_s_replacement"
+    ]
+  },
+  {
+    "id": "c_from_t_1",
+    "family": "c_t_replacement",
+    "operation": "固定N：C改为1，以T反向替换-1张",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "d": 1,
+      "t": 10,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -1,
+      "d": 0,
+      "t": 1,
+      "s": 0
+    },
+    "aliases": [
+      "c_from_t_1",
+      "grid_c1_s10"
+    ],
+    "families": [
+      "c_t_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "c_from_s_1",
+    "family": "c_s_replacement",
+    "operation": "固定N：C改为1，以S反向替换-1张",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "d": 1,
+      "t": 9,
+      "s": 11
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -1,
+      "d": 0,
+      "t": 0,
+      "s": 1
+    },
+    "aliases": [
+      "c_from_s_1"
+    ],
+    "families": [
+      "c_s_replacement"
+    ]
+  },
+  {
+    "id": "c_from_t_3",
+    "family": "c_t_replacement",
+    "operation": "固定N：C改为3，以T反向替换+1张",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 3,
+      "d": 1,
+      "t": 8,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "d": 0,
+      "t": -1,
+      "s": 0
+    },
+    "aliases": [
+      "c_from_t_3",
+      "grid_c3_s10"
+    ],
+    "families": [
+      "c_t_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "c_from_s_3",
+    "family": "c_s_replacement",
+    "operation": "固定N：C改为3，以S反向替换+1张",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 3,
+      "d": 1,
+      "t": 9,
+      "s": 9
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "d": 0,
+      "t": 0,
+      "s": -1
+    },
+    "aliases": [
+      "c_from_s_3"
+    ],
+    "families": [
+      "c_s_replacement"
+    ]
+  },
+  {
+    "id": "c_from_t_4",
+    "family": "c_t_replacement",
+    "operation": "固定N：C改为4，以T反向替换+2张",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 4,
+      "d": 1,
+      "t": 7,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 2,
+      "d": 0,
+      "t": -2,
+      "s": 0
+    },
+    "aliases": [
+      "c_from_t_4",
+      "grid_c4_s10"
+    ],
+    "families": [
+      "c_t_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "c_from_s_4",
+    "family": "c_s_replacement",
+    "operation": "固定N：C改为4，以S反向替换+2张",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 4,
+      "d": 1,
+      "t": 9,
+      "s": 8
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 2,
+      "d": 0,
+      "t": 0,
+      "s": -2
+    },
+    "aliases": [
+      "c_from_s_4",
+      "grid_c4_s8"
+    ],
+    "families": [
+      "c_s_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "c_from_t_5",
+    "family": "c_t_replacement",
+    "operation": "固定N：C改为5，以T反向替换+3张",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 5,
+      "d": 1,
+      "t": 6,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 3,
+      "d": 0,
+      "t": -3,
+      "s": 0
+    },
+    "aliases": [
+      "c_from_t_5",
+      "grid_c5_s10"
+    ],
+    "families": [
+      "c_t_replacement",
+      "heatmap"
+    ]
+  },
+  {
+    "id": "c_from_s_5",
+    "family": "c_s_replacement",
+    "operation": "固定N：C改为5，以S反向替换+3张",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 5,
+      "d": 1,
+      "t": 9,
+      "s": 7
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 3,
+      "d": 0,
+      "t": 0,
+      "s": -3
+    },
+    "aliases": [
+      "c_from_s_5"
+    ],
+    "families": [
+      "c_s_replacement"
+    ]
+  },
+  {
+    "id": "c_change_1",
+    "family": "c_addition_deletion",
+    "operation": "删除1张C；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -1,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "c_change_1"
+    ],
+    "families": [
+      "c_addition_deletion"
+    ]
+  },
+  {
+    "id": "c_change_3",
+    "family": "c_addition_deletion",
+    "operation": "增加1张C；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 3,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "c_change_3"
+    ],
+    "families": [
+      "c_addition_deletion"
+    ]
+  },
+  {
+    "id": "c_change_4",
+    "family": "c_addition_deletion",
+    "operation": "增加2张C；其余数量不变",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 4,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 2,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "c_change_4"
+    ],
+    "families": [
+      "c_addition_deletion"
+    ]
+  },
+  {
+    "id": "n_5",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为5",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 5,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_5"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_6",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为6",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 6,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_6"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_7",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为7",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 7,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_7"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_8",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为8",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 8,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_8"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_9",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为9",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 9,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_9"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_11",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为11",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 11,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_11"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_12",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为12",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 12,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_12"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_13",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为13",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 13,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_13"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_14",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为14",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 14,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_14"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_15",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为15",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 15,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_15"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_16",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为16",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 16,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_16"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_17",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为17",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 17,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_17"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_18",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为18",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 18,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_18"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_19",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为19",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 19,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_19"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "n_20",
+    "family": "setup_size",
+    "operation": "卡组固定，只将设置阶段n改为20",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "t": 9,
+      "s": 10
+    },
+    "n": 20,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "t": 0,
+      "s": 0
+    },
+    "aliases": [
+      "n_20"
+    ],
+    "families": [
+      "setup_size"
+    ]
+  },
+  {
+    "id": "grid_c1_s2",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=1,S=2,T=18；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "d": 1,
+      "t": 18,
+      "s": 2
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -1,
+      "d": 0,
+      "t": 9,
+      "s": -8
+    },
+    "aliases": [
+      "grid_c1_s2"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c1_s4",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=1,S=4,T=16；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "d": 1,
+      "t": 16,
+      "s": 4
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -1,
+      "d": 0,
+      "t": 7,
+      "s": -6
+    },
+    "aliases": [
+      "grid_c1_s4"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c1_s6",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=1,S=6,T=14；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "d": 1,
+      "t": 14,
+      "s": 6
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -1,
+      "d": 0,
+      "t": 5,
+      "s": -4
+    },
+    "aliases": [
+      "grid_c1_s6"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c1_s8",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=1,S=8,T=12；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "d": 1,
+      "t": 12,
+      "s": 8
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -1,
+      "d": 0,
+      "t": 3,
+      "s": -2
+    },
+    "aliases": [
+      "grid_c1_s8"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c1_s12",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=1,S=12,T=8；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "d": 1,
+      "t": 8,
+      "s": 12
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -1,
+      "d": 0,
+      "t": -1,
+      "s": 2
+    },
+    "aliases": [
+      "grid_c1_s12"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c1_s14",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=1,S=14,T=6；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "d": 1,
+      "t": 6,
+      "s": 14
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -1,
+      "d": 0,
+      "t": -3,
+      "s": 4
+    },
+    "aliases": [
+      "grid_c1_s14"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c1_s16",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=1,S=16,T=4；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "d": 1,
+      "t": 4,
+      "s": 16
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": -1,
+      "d": 0,
+      "t": -5,
+      "s": 6
+    },
+    "aliases": [
+      "grid_c1_s16"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c3_s2",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=3,S=2,T=16；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 3,
+      "d": 1,
+      "t": 16,
+      "s": 2
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "d": 0,
+      "t": 7,
+      "s": -8
+    },
+    "aliases": [
+      "grid_c3_s2"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c3_s4",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=3,S=4,T=14；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 3,
+      "d": 1,
+      "t": 14,
+      "s": 4
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "d": 0,
+      "t": 5,
+      "s": -6
+    },
+    "aliases": [
+      "grid_c3_s4"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c3_s6",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=3,S=6,T=12；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 3,
+      "d": 1,
+      "t": 12,
+      "s": 6
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "d": 0,
+      "t": 3,
+      "s": -4
+    },
+    "aliases": [
+      "grid_c3_s6"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c3_s8",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=3,S=8,T=10；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 3,
+      "d": 1,
+      "t": 10,
+      "s": 8
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "d": 0,
+      "t": 1,
+      "s": -2
+    },
+    "aliases": [
+      "grid_c3_s8"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c3_s12",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=3,S=12,T=6；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 3,
+      "d": 1,
+      "t": 6,
+      "s": 12
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "d": 0,
+      "t": -3,
+      "s": 2
+    },
+    "aliases": [
+      "grid_c3_s12"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c3_s14",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=3,S=14,T=4；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 3,
+      "d": 1,
+      "t": 4,
+      "s": 14
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "d": 0,
+      "t": -5,
+      "s": 4
+    },
+    "aliases": [
+      "grid_c3_s14"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c3_s16",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=3,S=16,T=2；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 3,
+      "d": 1,
+      "t": 2,
+      "s": 16
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "d": 0,
+      "t": -7,
+      "s": 6
+    },
+    "aliases": [
+      "grid_c3_s16"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c4_s2",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=4,S=2,T=15；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 4,
+      "d": 1,
+      "t": 15,
+      "s": 2
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 2,
+      "d": 0,
+      "t": 6,
+      "s": -8
+    },
+    "aliases": [
+      "grid_c4_s2"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c4_s4",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=4,S=4,T=13；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 4,
+      "d": 1,
+      "t": 13,
+      "s": 4
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 2,
+      "d": 0,
+      "t": 4,
+      "s": -6
+    },
+    "aliases": [
+      "grid_c4_s4"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c4_s6",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=4,S=6,T=11；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 4,
+      "d": 1,
+      "t": 11,
+      "s": 6
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 2,
+      "d": 0,
+      "t": 2,
+      "s": -4
+    },
+    "aliases": [
+      "grid_c4_s6"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c4_s12",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=4,S=12,T=5；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 4,
+      "d": 1,
+      "t": 5,
+      "s": 12
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 2,
+      "d": 0,
+      "t": -4,
+      "s": 2
+    },
+    "aliases": [
+      "grid_c4_s12"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c4_s14",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=4,S=14,T=3；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 4,
+      "d": 1,
+      "t": 3,
+      "s": 14
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 2,
+      "d": 0,
+      "t": -6,
+      "s": 4
+    },
+    "aliases": [
+      "grid_c4_s14"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c4_s16",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=4,S=16,T=1；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 4,
+      "d": 1,
+      "t": 1,
+      "s": 16
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 2,
+      "d": 0,
+      "t": -8,
+      "s": 6
+    },
+    "aliases": [
+      "grid_c4_s16"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c5_s2",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=5,S=2,T=14；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 5,
+      "d": 1,
+      "t": 14,
+      "s": 2
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 3,
+      "d": 0,
+      "t": 5,
+      "s": -8
+    },
+    "aliases": [
+      "grid_c5_s2"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c5_s4",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=5,S=4,T=12；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 5,
+      "d": 1,
+      "t": 12,
+      "s": 4
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 3,
+      "d": 0,
+      "t": 3,
+      "s": -6
+    },
+    "aliases": [
+      "grid_c5_s4"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c5_s6",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=5,S=6,T=10；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 5,
+      "d": 1,
+      "t": 10,
+      "s": 6
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 3,
+      "d": 0,
+      "t": 1,
+      "s": -4
+    },
+    "aliases": [
+      "grid_c5_s6"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c5_s8",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=5,S=8,T=8；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 5,
+      "d": 1,
+      "t": 8,
+      "s": 8
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 3,
+      "d": 0,
+      "t": -1,
+      "s": -2
+    },
+    "aliases": [
+      "grid_c5_s8"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c5_s12",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=5,S=12,T=4；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 5,
+      "d": 1,
+      "t": 4,
+      "s": 12
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 3,
+      "d": 0,
+      "t": -5,
+      "s": 2
+    },
+    "aliases": [
+      "grid_c5_s12"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c5_s14",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=5,S=14,T=2；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 5,
+      "d": 1,
+      "t": 2,
+      "s": 14
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 3,
+      "d": 0,
+      "t": -7,
+      "s": 4
+    },
+    "aliases": [
+      "grid_c5_s14"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  },
+  {
+    "id": "grid_c5_s16",
+    "family": "heatmap",
+    "operation": "固定N=24、A=B=D=1：C=5,S=16,T=0；由T补齐",
+    "deck": {
+      "a": 1,
+      "b": 1,
+      "c": 5,
+      "d": 1,
+      "t": 0,
+      "s": 16
+    },
+    "n": 10,
+    "h": 4,
+    "delta": {
+      "a": 0,
+      "b": 0,
+      "c": 3,
+      "d": 0,
+      "t": -9,
+      "s": 6
+    },
+    "aliases": [
+      "grid_c5_s16"
+    ],
+    "families": [
+      "heatmap"
+    ]
+  }
+]

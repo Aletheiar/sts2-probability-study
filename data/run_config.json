@@ -1,0 +1,13 @@
+{
+  "seed": 20261114,
+  "trials": 200000,
+  "refinement_trials": 1000000,
+  "convergence_sizes": [
+    2000,
+    10000,
+    50000,
+    200000
+  ],
+  "convergence_repetitions": 30,
+  "protocol": "One active A/B pair, no stacking; extra A/B/C/S in stage two are consumable."
+}

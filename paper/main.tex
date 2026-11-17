@@ -1,0 +1,86 @@
+\documentclass[UTF8,a4paper,zihao=-4,fontset=fandol]{ctexart}
+\usepackage[left=24mm,right=24mm,top=22mm,bottom=22mm,headheight=15pt,headsep=6mm,footskip=10mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{graphicx,booktabs,array}
+\usepackage{caption,placeins}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{fancyhdr}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{url}
+\setmainfont[BoldFont=texgyretermes-bold.otf,ItalicFont=texgyretermes-italic.otf,BoldItalicFont=texgyretermes-bolditalic.otf]{texgyretermes-regular.otf}
+\graphicspath{{figures/}}
+\linespread{1.06}
+\setlength{\parskip}{1pt}
+\setlength{\textfloatsep}{12pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{10pt plus 2pt minus 2pt}
+\renewcommand{\topfraction}{0.93}
+\renewcommand{\bottomfraction}{0.80}
+\renewcommand{\textfraction}{0.06}
+\renewcommand{\floatpagefraction}{0.82}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\captionsetup{font=small,labelfont=bf,labelsep=quad,skip=5pt}
+\ctexset{
+  section={format=\large\bfseries,beforeskip=14pt,afterskip=7pt},
+  subsection={format=\normalsize\bfseries,beforeskip=10pt,afterskip=5pt}
+}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small 上海交通大学《概率论与数理统计》课程大作业}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\numberwithin{equation}{section}
+\newtheorem{proposition}{命题}[section]
+\renewcommand{\proofname}{证明}
+\newcommand{\E}{\mathbb E}
+\newcommand{\V}{\operatorname{Var}}
+\newcommand{\SD}{\operatorname{SD}}
+\newcommand{\Prob}{\mathbb P}
+\newcommand{\ind}{\mathbf 1}
+\newcommand{\CV}{\operatorname{CV}}
+\newcommand{\given}{\,\middle|\,}
+\input{generated/numbers.tex}
+\hypersetup{
+  pdftitle={随机卡组构筑中的组合可及性与收益稳定性研究},
+  pdfauthor={Anonymous},
+  pdfsubject={概率论与数理统计课程大作业},
+  pdfkeywords={超几何分布，条件概率，全方差公式，蒙特卡洛模拟}
+}
+\title{\vspace{-1.4em}\zihao{3}\bfseries 随机卡组构筑中的组合可及性\\与收益稳定性研究\\[0.3em]
+  \zihao{-3}——以《杀戮尖塔2》消耗机制为例}
+\author{\normalsize 匿名作者\\[-0.1em]
+  \small 上海交通大学}
+\date{\small 2026年11月16日}
+\begin{document}
+\maketitle
+\vspace{-1.2em}
+\begin{abstract}
+有限随机牌组中的协同收益，同时受关键组件可及性与成功条件下的手牌构成影响。
+本文从《杀戮尖塔2》的消耗机制抽象出均匀排列模型，以容斥和次序统计量刻画组件联合可及性、
+首次见齐时间及顺序约束，以同一次洗牌中的两阶段抽样构造条件超几何混合分布。
+在24张基准牌组上，固定规模的普通攻击牌与非攻击牌替换使条件收益均值成为一次函数、
+方差成为开口向下的二次函数，后者在普通非攻击牌数为9时达到整数最大值。
+全方差分解表明，基准总体方差的82.63\%来自成功与失败两类条件均值的差异。
+操作成本改变结论：直接增加6张普通非攻击牌，条件均值由16.91升至20.22，
+总体均值却由1.67降至1.04。107组配置的精确计算与独立随机排列模拟表明，
+可及性、条件收益和总体波动随卡组增删与替换呈现不同变化规律。
+\end{abstract}
+\noindent\textbf{关键词：}超几何分布；条件概率；首次见齐时间；全方差公式；蒙特卡洛模拟
+\input{sections/01_intro_model.tex}
+\input{sections/02_accessibility.tex}
+\FloatBarrier
+\input{sections/03_payoff.tex}
+\input{sections/04_construction.tex}
+\input{sections/05_validation_conclusion.tex}
+\label{maintext:end}
+\FloatBarrier
+\clearpage
+\bibliographystyle{unsrtnat}
+{\small\raggedright
+\bibliography{references}
+\par}
+\input{sections/appendix.tex}
+\end{document}

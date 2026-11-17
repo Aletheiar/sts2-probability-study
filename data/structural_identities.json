@@ -1,0 +1,23 @@
+{
+  "coefficients": {
+    "conditional_mean": [
+      "64/35",
+      "264/175",
+      "0"
+    ],
+    "conditional_variance": [
+      "13824/1225",
+      "1064832/116375",
+      "-282624/581875"
+    ],
+    "variance": [
+      "4431360/3136441",
+      "7559808/5417489",
+      "837888/5417489"
+    ]
+  },
+  "coefficient_order": "constant, S, S^2",
+  "conditional_variance_maximizer": 9,
+  "conditional_variance_vertex": "13865/1472",
+  "scope": "A=B=D=1,C=2,N=24,T=19-S,n=10,h=4; integer 0<=S<=19"
+}
